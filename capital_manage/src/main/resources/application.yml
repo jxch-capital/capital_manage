@@ -7,7 +7,11 @@ spring:
     username: capital
     password: capital
     driver-class-name: org.mariadb.jdbc.Driver
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true
 
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: DEBUG
